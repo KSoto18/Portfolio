@@ -1,2 +1,4 @@
-# Portfolio
-Personal Portfolio. 
+# Khris Soto
+Personal web developer portfolio. 
+
+## 

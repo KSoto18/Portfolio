@@ -1,5 +1,6 @@
 
 nav a {
+
     position: relative;
     display:inline-flex;
     color: aliceblue;
@@ -11,8 +12,9 @@ nav a {
     font-weight: bold; 
     bottom: 165px;
     left: 400px;
-
-      
+    background-color: slateblue;
+    
+     
 }
 
 header {
@@ -24,6 +26,8 @@ header img {
     display: flex;
     position: relative;
     object-fit: fill;
+    width: 100%;
+    
 
 }
 
@@ -35,3 +39,36 @@ Header h1 {
     font-size: xx-large;
     
 }
+
+body {
+    background-color: steelblue;
+}
+
+.content-title h3,h4,h5 { 
+    font-family: monospace;
+    font-size: x-large;
+    color: aliceblue;
+    padding: 5px;
+    float: left;
+    border-right: 2px midnightblue solid;
+
+
+}
+
+contactme p {
+    display: inline;
+    color: aliceblue;
+    margin: 5px;
+    float: left;
+    
+
+}
+
+.worklinks a {
+    border: 2px midnightblue solid;
+    margin: 5px;
+    float: center;
+    
+    
+}
+

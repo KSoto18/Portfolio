@@ -1,0 +1,37 @@
+
+nav a {
+    position: relative;
+    display:inline-flex;
+    color: aliceblue;
+    border: 2px cornflowerblue solid;
+    margin: 5px;
+    padding: 2px;
+    font-size: large;
+    font-family: monospace;
+    font-weight: bold; 
+    bottom: 165px;
+    left: 400px;
+
+      
+}
+
+header {
+    
+}
+
+header img {
+    max-inline-size: 100%;
+    display: flex;
+    position: relative;
+    object-fit: fill;
+
+}
+
+Header h1 {
+    position: absolute;
+    top: 0px;
+    margin: 5px;
+    color: aliceblue;
+    font-size: xx-large;
+    
+}

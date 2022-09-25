@@ -1,5 +1,4 @@
 * {
-    background-color: steelblue;
     color: aliceblue;
 }
 
@@ -10,16 +9,18 @@ nav {
     float: right;
     top: 0px;
     right: 0px;
-    margin: 5px;  
+    
+    background-color: steelblue;  
 }
 
 nav a {
-    border: 2px cornflowerblue solid;
+    border: 2px midnightblue solid;
     margin: 5px;
     padding: 2px;
     font-size: large;
     font-family: monospace;
-    font-weight: bold; 
+    font-weight: bold;
+    background-color: slateblue; 
     }
 
 #subtitle {
@@ -32,10 +33,12 @@ nav a {
 }
 
 header {
-    
+    top: 0px;
+    font-size: xx-large; 
+    background-color: steelblue;   
 }
 
-header img {
+subtitle img {
     max-inline-size: 100%;
     display: flex;
     position: relative;
@@ -43,12 +46,8 @@ header img {
     width: 100%;   
 }
 
-Header h1 {
-    position: absolute;
-    top: 0px;
-    margin: 5px;
-    font-size: xx-large;
-    
+body {
+    background-color: slateblue;
 }
 
 main {
@@ -73,8 +72,8 @@ aside h3, h4, h5 {
 }
 
 .contactme {
-    display: inline;
-    text-align: center;
+    display: inline-block;
+    text-align: left;
     padding: 10px;
     margin: 10px;
     font-size: larger;

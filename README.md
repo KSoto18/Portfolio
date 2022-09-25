@@ -11,6 +11,11 @@ learn about the developers career and how to contact. It also has links to proje
 
 
 
+## Link to Repo and Website
+
+[Repo](https://github.com/KSoto18/Portfolio)
+[Website](https://ksoto18.github.io/Portfolio/)
+
 
 ## Contact information
 

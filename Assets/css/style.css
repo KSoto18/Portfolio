@@ -27,8 +27,7 @@ nav a {
     font-family: monospace;
     font-size: x-large;
     right: 90px;
-    top: 100px;
-    
+    top: 100px;  
 
 }
 
@@ -41,9 +40,7 @@ header img {
     display: flex;
     position: relative;
     object-fit: fill;
-    width: 100%;
-    
-
+    width: 100%;   
 }
 
 Header h1 {
@@ -69,21 +66,24 @@ aside {
     font-size: x-large;
     padding: 5px;
     float: left;
-    border-right: 2px midnightblue solid;
 }
 
 aside h3, h4, h5 {
     margin: 50px 10px 20px 5px;
 }
 
-.aboutme {
-    display: block
-    
+.contactme {
+    display: inline;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    font-size: larger;
+  
 }
 
-.contactme {
-    margin: 5px;
-    float: left;     
+.work {
+    display: inline-flex;
+ 
 }
 
 .work img {
@@ -91,15 +91,16 @@ aside h3, h4, h5 {
     align-items: flex-start;
     border: 2px midnightblue solid;
     margin: 5px;
-    
-    
-
-    
+ 
 }
+
 
 section {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    border-left: 2px midnightblue solid;
+    margin: 10px;
+    padding-left: 20px;
 }
 

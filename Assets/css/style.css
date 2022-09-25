@@ -1,20 +1,35 @@
+* {
+    background-color: steelblue;
+    color: aliceblue;
+}
+
+nav {
+    position: absolute;
+    display: inline;
+    display: flex;
+    float: right;
+    top: 0px;
+    right: 0px;
+    margin: 5px;  
+}
 
 nav a {
-
-    position: relative;
-    display:inline-flex;
-    color: aliceblue;
     border: 2px cornflowerblue solid;
     margin: 5px;
     padding: 2px;
     font-size: large;
     font-family: monospace;
     font-weight: bold; 
-    bottom: 165px;
-    left: 400px;
-    background-color: slateblue;
+    }
+
+#subtitle {
+    position: absolute;
+    font-family: monospace;
+    font-size: x-large;
+    right: 90px;
+    top: 100px;
     
-     
+
 }
 
 header {
@@ -35,40 +50,56 @@ Header h1 {
     position: absolute;
     top: 0px;
     margin: 5px;
-    color: aliceblue;
     font-size: xx-large;
     
 }
 
-body {
-    background-color: steelblue;
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    
 }
 
-.content-title h3,h4,h5 { 
+aside { 
+    flex-flow: column;
+    
+    margin: 25px;
     font-family: monospace;
     font-size: x-large;
-    color: aliceblue;
     padding: 5px;
     float: left;
     border-right: 2px midnightblue solid;
-
-
 }
 
-contactme p {
-    display: inline;
-    color: aliceblue;
-    margin: 5px;
-    float: left;
+aside h3, h4, h5 {
+    margin: 50px 10px 20px 5px;
+}
+
+.aboutme {
+    display: block
     
-
 }
 
-.worklinks a {
+.contactme {
+    margin: 5px;
+    float: left;     
+}
+
+.work img {
+    display: inline-block;
+    align-items: flex-start;
     border: 2px midnightblue solid;
     margin: 5px;
-    float: center;
     
     
+
+    
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 

@@ -20,7 +20,7 @@ nav a {
     font-family: monospace;
     font-weight: bold; 
     background-color: steelblue;
-    }
+}
 
 #subtitle {
     position: absolute;
@@ -28,7 +28,6 @@ nav a {
     font-size: x-large;
     right: 90px;
     top: 100px;  
-
 }
 
 header img {
@@ -39,7 +38,7 @@ header img {
     width: 100%;   
 }
 
-Header h1 {
+header h1 {
     background-color: steelblue;
     position: absolute;
     top: 0px;
@@ -51,63 +50,74 @@ Header h1 {
 body {
     display: flex;
     flex-direction: column;
-    position: relative;
-    left: 0px;
-
-    
+    justify-content: flex-start; 
 }
 
 .img-style{
     border: 2px midnightblue solid;
 }
 
-.title-style {
-    
+.title-style { 
     color: aliceblue;
-    padding-right: 10px;
-    font-size: large;
-    
+    padding: 10px;
+    font-size: large; 
+    text-align: right; 
 }
 
-.container {
-    position: relative;
-    left: 155px;
-    margin: 5px;
-    border-left: 5px midnightblue solid;
-    padding: 10px;    
-    
+article {
+    margin: 10px;
 }
 
-p {
-    position: fixed;
+p { 
     border-left: 5px midnightblue solid;
     margin: 10px;
+    padding: 5px;  
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-left: 5px midnightblue solid;
     padding: 10px;
-    left: 150px;
-    
+    position: relative;
+    left: 103px;
 }
 
 information { 
     border-left: 5px midnightblue solid;
-    position: fixed;
     left: 150px;
     bottom: 10px;
     margin: 10px;
     padding: 10px;
 }
 
-.bottom {
-    position: fixed;
-    left: 5px;
-    bottom: 10px;
-    margin: 10px;
+.contact-me {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 10px;
+    flex-wrap: nowrap;
 
 }
 
-.top {
-    position: fixed;
-    left: 5px;
-    top: 10%;
+.bottom-nav {
+    justify-content: center;
     margin: 10px;
+}
 
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+li {
+    padding: 10px;
+}
+
+.sections {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
 }

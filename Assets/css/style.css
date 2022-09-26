@@ -62,6 +62,7 @@ body {
     padding: 10px;
     font-size: large; 
     text-align: right; 
+    width: 75px;
 }
 
 article {
@@ -81,10 +82,10 @@ p {
 .images {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
     padding-left: 5px;
     position: relative;
-    left: 70px;
+    
 }
 
 information { 
@@ -93,15 +94,6 @@ information {
     bottom: 10px;
     margin: 10px;
     padding: 10px;
-}
-
-.contact-me {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-right: 10px;
-    flex-wrap: nowrap;
-
 }
 
 .bottom-nav {

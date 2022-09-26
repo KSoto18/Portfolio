@@ -1,16 +1,15 @@
 * {
     color: aliceblue;
+    background-color: steelblue;
 }
 
 nav {
-    position: absolute;
     display: inline;
     display: flex;
     float: right;
     top: 0px;
     right: 0px;
-    
-    background-color: steelblue;  
+    margin: 5px;  
 }
 
 nav a {
@@ -19,8 +18,8 @@ nav a {
     padding: 2px;
     font-size: large;
     font-family: monospace;
-    font-weight: bold;
-    background-color: slateblue; 
+    font-weight: bold; 
+    background-color: steelblue;
     }
 
 #subtitle {
@@ -32,13 +31,7 @@ nav a {
 
 }
 
-header {
-    top: 0px;
-    font-size: xx-large; 
-    background-color: steelblue;   
-}
-
-subtitle img {
+header img {
     max-inline-size: 100%;
     display: flex;
     position: relative;
@@ -46,61 +39,75 @@ subtitle img {
     width: 100%;   
 }
 
-body {
-    background-color: slateblue;
-}
-
-main {
-    display: flex;
-    flex-direction: column;
-    margin: 50px;
-    
-}
-
-aside { 
-    flex-flow: column;
-    
-    margin: 25px;
-    font-family: monospace;
-    font-size: x-large;
-    padding: 5px;
-    float: left;
-}
-
-aside h3, h4, h5 {
-    margin: 50px 10px 20px 5px;
-}
-
-.contactme {
-    display: inline-block;
-    text-align: left;
-    padding: 10px;
-    margin: 10px;
-    font-size: larger;
-    text-decoration: none;
-
-}
-
-.work {
-    display: inline-flex;
- 
-}
-
-.work img {
-    display: inline-block;
-    align-items: flex-start;
-    border: 2px midnightblue solid;
+Header h1 {
+    background-color: steelblue;
+    position: absolute;
+    top: 0px;
     margin: 5px;
- 
+    font-size: xx-large;
+    
 }
 
-
-section {
+body {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
-    border-left: 2px midnightblue solid;
-    margin: 10px;
-    padding-left: 20px;
+    position: relative;
+    left: 0px;
+
+    
 }
 
+.img-style{
+    border: 2px midnightblue solid;
+}
+
+.title-style {
+    
+    color: aliceblue;
+    padding-right: 10px;
+    font-size: large;
+    
+}
+
+.container {
+    position: relative;
+    left: 155px;
+    margin: 5px;
+    border-left: 5px midnightblue solid;
+    padding: 10px;    
+    
+}
+
+p {
+    position: fixed;
+    border-left: 5px midnightblue solid;
+    margin: 10px;
+    padding: 10px;
+    left: 150px;
+    
+}
+
+information { 
+    border-left: 5px midnightblue solid;
+    position: fixed;
+    left: 150px;
+    bottom: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.bottom {
+    position: fixed;
+    left: 5px;
+    bottom: 10px;
+    margin: 10px;
+
+}
+
+.top {
+    position: fixed;
+    left: 5px;
+    top: 10%;
+    margin: 10px;
+
+}

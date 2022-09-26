@@ -65,11 +65,15 @@ body {
 }
 
 article {
-    margin: 10px;
+    border-left: 5px midnightblue solid;
+}
+
+article a {
+    border: 2px midnightblue solid;
+    margin: 2px;
 }
 
 p { 
-    border-left: 5px midnightblue solid;
     margin: 10px;
     padding: 5px;  
 }
@@ -78,10 +82,9 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    border-left: 5px midnightblue solid;
-    padding: 10px;
+    padding-left: 5px;
     position: relative;
-    left: 103px;
+    left: 70px;
 }
 
 information { 
@@ -120,4 +123,5 @@ li {
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
+    margin: 5px;
 }

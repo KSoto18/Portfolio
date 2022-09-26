@@ -48,6 +48,11 @@ nav a {
    
 }
 
+container {
+    display:flex;
+
+}
+
 header h1 {
     background-color: steelblue;
     position: absolute;
@@ -65,6 +70,7 @@ body {
 
 .img-style{
     border: 2px midnightblue solid;
+    margin: 2px;
 }
 
 .title-style { 
@@ -92,10 +98,18 @@ p {
 .images {
     display: flex;
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: space-evenly;
     padding-left: 5px;
-    position: relative;
+    border-left: 5px midnightblue solid;
+    margin: 5px;
     
+    
+}
+
+.little-images{
+    display: flex;
+    position: relative;
+    flex-direction: row;
 }
 
 information { 

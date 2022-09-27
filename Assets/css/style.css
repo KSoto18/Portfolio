@@ -29,7 +29,7 @@ nav a {
     font-family: monospace;
     font-size: x-large;
     right: 90px;
-    top: 100px;  
+    top: 50px;  
 }
 
 #banner {
@@ -43,8 +43,7 @@ nav a {
 #mypicture {
    display:flex;
    position: relative;
-   left: 50px;
-   bottom: 140px;
+   left: 10px;
    border-radius: 25px;
    border: 2px midnightblue solid;
    
@@ -87,6 +86,7 @@ article {
 article a {
     border: 2px midnightblue solid;
     margin: 2px;
+
 }
 
 p { 
@@ -126,7 +126,9 @@ information {
 .bottom-nav {
     justify-content: center;
     margin: 10px;
+   
 }
+
 
 ul {
     display: flex;
@@ -135,7 +137,8 @@ ul {
 }
 
 li {
-    padding: 10px;
+    padding: 10px; 
+    
 }
 
 .sections {
@@ -144,3 +147,32 @@ li {
     justify-content: center;
     align-items: center;
 }
+
+h6 {
+    position: absolute;
+    border: 2px midnightblue solid;
+    border-radius: 5px;
+    padding: 2px;
+    top: 70px;
+    left: 10px;
+}
+
+h8 {
+    position: absolute;
+    border: 2px midnightblue solid;
+    border-radius: 5px;
+    padding: 2px;
+    top: 430px;
+    left: 525px;
+    
+}
+
+h9 {
+    position: absolute;
+    border: 2px midnightblue solid;
+    border-radius: 5px;
+    padding: 2px;
+    right: 100px;
+    top: 70px;
+}
+

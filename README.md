@@ -9,8 +9,8 @@ learn about the developers career and how to contact. It also has links to proje
 
 # Preview of Website
 
-![Top](./Assets/images/Screenshot1.jpg)
-![Bottom](./Assets/images/screenshot2.jpg)
+![Portfolio](./Assets/images/Screenshot1.jpg)
+
 
 
 ## Link to Repo and Website

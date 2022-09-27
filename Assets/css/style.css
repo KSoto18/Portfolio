@@ -118,17 +118,9 @@ p {
     flex-direction: row;
 }
 
-information { 
-    border-left: 5px midnightblue solid;
-    left: 150px;
-    bottom: 10px;
-    margin: 10px;
-}
-
 .bottom-nav {
     justify-content: center;
-    margin: 10px;
-   
+    margin: 10px; 
 }
 
 
@@ -136,6 +128,8 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    border-left: 5px midnightblue solid;
+    margin: 10px;
 }
 
 li {

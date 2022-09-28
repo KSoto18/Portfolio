@@ -118,6 +118,7 @@ p {
     flex-direction: row;
 }
 
+/* ----------------------------- */
 .bottom-nav {
     justify-content: center;
     margin: 10px; 
@@ -143,6 +144,7 @@ li {
     align-items: center;
 }
 
+/* Tags inside the images */
 h6 {
     position: absolute;
     border: 2px midnightblue solid;
@@ -175,7 +177,23 @@ h9 {
     border-left: 5px midnightblue solid;
 }
 
-/* @media screen and (max-width: 500) {
-    {
+/* Media break for iPhone*/
+
+@media screen and (max-width: 414px) {
+
+    header {
+        display: flex;
         flex-direction: column;
-    } */
+        
+    }
+
+    nav {
+        flex-direction: column-reverse;
+        
+    }
+
+    .sections {
+        flex-direction: column;
+    }
+
+}

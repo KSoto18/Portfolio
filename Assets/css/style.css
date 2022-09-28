@@ -78,6 +78,8 @@ body {
     width: 75px;
 }
 
+/* About me section style */
+ 
 article {
     border-left: 5px midnightblue solid;
     margin: 22px;
@@ -118,12 +120,7 @@ p {
     flex-direction: row;
 }
 
-/* ----------------------------- */
-.bottom-nav {
-    justify-content: center;
-    margin: 10px; 
-}
-
+/* Nav bar */
 
 ul {
     display: flex;
@@ -135,8 +132,10 @@ ul {
 
 li {
     padding: 10px; 
-    
+  
 }
+
+/* Styling for sections */
 
 .sections {
     display: flex;
@@ -174,17 +173,20 @@ h9 {
     top: 70px;
 }
 
+/* Bottom nav bar  */
+
+.bottom-nav {
+    justify-content: center;
+    margin: 10px; 
+}
+
 #bottomborder {
     border-left: 5px midnightblue solid;
 }
 
-/* Media break for iPhone*/
+/* Media Break for size */
 
-@media screen and (max-width: 414px) {
-    
-    body{
-        background-color: steelblue;
-    }
+@media screen and (max-width: 600px) {
 
     header h1 {
         display: flex;
@@ -197,12 +199,17 @@ h9 {
     nav ul {
         flex-direction: column-reverse;
         align-items: center;
+        right: 90%;
+        
         
     }
 
     .sections {
         flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
         
     }
+ 
 
 }

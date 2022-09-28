@@ -57,7 +57,7 @@ container {
 
 header h1 {
     background-color: #4a3379;
-    position: absolute;
+    position: relative;
     top: 0px;
     margin: 5px;
     font-size: xx-large;
@@ -127,6 +127,7 @@ p {
 
 ul {
     display: flex;
+    position: relative;
     flex-direction: row;
     justify-content: space-between;
     margin: 10px;
@@ -180,20 +181,28 @@ h9 {
 /* Media break for iPhone*/
 
 @media screen and (max-width: 414px) {
+    
+    body{
+        background-color: steelblue;
+    }
 
-    header {
+    header h1 {
         display: flex;
         flex-direction: column;
+        text-align: center;
+        
         
     }
 
-    nav {
+    nav ul {
         flex-direction: column-reverse;
+        align-items: center;
         
     }
 
     .sections {
         flex-direction: column;
+        
     }
 
 }

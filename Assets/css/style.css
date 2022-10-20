@@ -142,10 +142,12 @@ li {
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
+    width: 800px;
+
 }
 
 /* Tags inside the images */
-h6 {
+.lable2 {
     position: absolute;
     border: 2px midnightblue solid;
     border-radius: 5px;
@@ -154,7 +156,7 @@ h6 {
     left: 10px;
 }
 
-h8 {
+.lable1 {
     position: absolute;
     border: 2px midnightblue solid;
     border-radius: 5px;
@@ -164,7 +166,7 @@ h8 {
     
 }
 
-h9 {
+.lable3 {
     position: absolute;
     border: 2px midnightblue solid;
     border-radius: 5px;

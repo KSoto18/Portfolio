@@ -202,6 +202,7 @@ li {
         flex-direction: column-reverse;
         align-items: center;
         right: 90%;
+        display: block;
         
         
     }
